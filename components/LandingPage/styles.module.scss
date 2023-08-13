@@ -1,0 +1,111 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  .navbarContainer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+  }
+
+  .logoContainer {
+
+    .logo {
+      transition: 0.3s;
+
+      &:hover {
+        cursor: pointer;
+        filter: brightness(0.8);
+      }
+    }
+  }
+
+  .optionsContainer {
+    display: flex;
+    gap: 17px;
+
+    .button {
+      width: 110px;
+      height: 42px;
+      display: flex;
+      background: var(--blue);
+      align-items: center;
+      justify-content: center;
+      border-radius: 5px;
+      color: white;
+      transition: 0.3s;
+
+      &:hover {
+        cursor: pointer;
+        filter: brightness(0.8);
+      }
+    }
+  }
+
+  .contentContainer {
+    width: 100%;
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--strongblue);
+
+    .heroSection {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: var(--strongblue);
+
+      .centerContainer {
+        width: 1300px;
+        height: 568px;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background: white;
+        border-radius: 15px;
+
+        .imageContainer {
+          margin-left: -86px;
+          margin-bottom: -36px;
+
+          .image {
+            transition: 1s;
+
+            &:hover {
+              cursor: none;
+              filter: brightness(1.25);
+            }
+          }
+        }
+
+        .textContainer {
+          width: 730px;
+          height: 480px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background: var(--gray);
+          color: white;
+          text-align: center;
+          padding: 0px 20px;
+          border-radius: 15px;
+          font-size: 35px;
+          transition: 1s;
+
+          &:hover {
+            background: #97bdd8;
+            transform: scale(1.02);
+          }
+        }
+      }
+    }
+  }
+}
