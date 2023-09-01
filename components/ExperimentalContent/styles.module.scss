@@ -1,0 +1,163 @@
+.container {
+
+  .experimentalContentContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: var(--lightblue);
+    padding: 0px 0px 100px 0px;
+
+    .contentContainer {
+      width: 90%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 50px;
+      gap: 50px;
+
+
+      .section {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+
+        .title {
+          font-size: 25px;
+          font-weight: 600;
+        }
+
+        .gamesContainer {
+          display: flex;
+          gap: 25px;
+          scroll-behavior: auto;
+          overflow-x: auto;
+
+          .gameCard {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            transition: 0.3s;
+
+            &:hover {
+              cursor: pointer;
+              filter: brightness(0.8);
+            }
+
+            .thumb {
+              width: 300px;
+              height: 150px;
+              border: 1px solid black;
+              border-radius: 20px;
+              background: var(--blue);
+
+            }
+
+            .title {
+              font-size: 18px;
+              font-weight: 500;
+            }
+          }
+        }
+
+        .videosContainer {
+          display: flex;
+          gap: 25px;
+          scroll-behavior: auto;
+          overflow-x: auto;
+
+          .videoCard {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            transition: 0.3s;
+
+            &:hover {
+              cursor: pointer;
+              filter: brightness(0.8);
+            }
+
+            .thumb {
+              width: 300px;
+              height: 150px;
+              border: 1px solid black;
+              border-radius: 20px;
+              background: rgb(255, 116, 116);
+
+            }
+
+            .title {
+              font-size: 18px;
+              font-weight: 500;
+            }
+          }
+        }
+
+        .articlesContainer {
+          display: flex;
+          gap: 25px;
+          scroll-behavior: auto;
+          overflow-x: auto;
+
+          .articleCard {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            transition: 0.3s;
+
+            &:hover {
+              cursor: pointer;
+              filter: brightness(0.8);
+            }
+
+            .thumb {
+              width: 300px;
+              height: 150px;
+              border: 1px solid black;
+              border-radius: 20px;
+              background: white;
+
+            }
+
+            .title {
+              font-size: 18px;
+              font-weight: 500;
+            }
+          }
+        }
+
+        .podcastsContainer {
+          display: flex;
+          gap: 25px;
+          scroll-behavior: auto;
+          overflow-x: auto;
+
+          .podcastCard {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            transition: 0.3s;
+
+            &:hover {
+              cursor: pointer;
+              filter: brightness(0.8);
+            }
+
+            .thumb {
+              width: 300px;
+              height: 150px;
+              border: 1px solid black;
+              border-radius: 20px;
+              background: rgb(125, 255, 125);
+
+            }
+
+            .title {
+              font-size: 18px;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+    }
+  }
+}
