@@ -17,7 +17,7 @@ const ExperimentalContent = () => {
             <div className={styles.title}>Games</div>
 
             <div className={styles.gamesContainer}>
-              <div className={styles.gameCard}>
+              <div className={styles.gameCard} onClick={() => window.open('/game1', '_self')}>
                 <div className={styles.thumb}>
                   {/*<Image src={} alt='Thumbnail' />*/}
                 </div>

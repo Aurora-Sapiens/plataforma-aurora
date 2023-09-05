@@ -36,3 +36,16 @@ a {
   }
 }
 */
+
+*::-webkit-scrollbar {
+  width: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--blue);
+  border-radius: 5px;
+}
